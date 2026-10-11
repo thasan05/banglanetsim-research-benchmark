@@ -79,7 +79,21 @@ This repository is the reproducible source-code and documentation companion to t
 - [Scenario distribution](./reports/distribution_scenario_type.csv)
 - [Congestion distribution](./reports/distribution_congestion_level.csv)
 - [Connection-type distribution](./reports/distribution_connection_type.csv)
-- Chart images and detailed per-class model results remain to be published.
+- [Detailed per-class model results (JSON)](./all_model_results.json)
+
+### Visualizations
+
+**Model comparison (macro-F1)**
+
+![Model comparison by macro-F1](./model_comparison_macro_f1.png)
+
+**Synthetic performance-class distribution**
+
+![Performance class distribution](./performance_class_distribution.png)
+
+**Random Forest confusion matrix on held-out synthetic test scenarios**
+
+![Random Forest test confusion matrix](./random_forest_test_confusion_matrix.png)
 
 **Dataset:** [BanglaNetSim Research Benchmark on Kaggle](https://www.kaggle.com/datasets/thasan05/banglanetsim-research-benchmark)
 
@@ -109,7 +123,7 @@ Reported metrics were obtained from the generated v2.0.1 dataset and the recorde
 - [x] Publish the dataset on Kaggle and link it here
 - [x] Publish the research report and model comparison metrics
 - [x] Publish dataset quality audit and distribution summaries
-- [ ] Add the visualization assets and detailed per-class model results
+- [x] Publish visualization assets and detailed per-class model results
 
 ## Citation
 
