@@ -1,0 +1,8 @@
+scenario_type,count
+packet_loss_stress,143251
+international_route,142991
+baseline,142973
+congestion_surge,142928
+wifi_degradation,142844
+local_route,142800
+mixed_stress,142213
