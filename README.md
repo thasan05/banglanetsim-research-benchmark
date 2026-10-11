@@ -68,15 +68,14 @@ The dataset contains these 19 columns:
 
 ## Repository contents
 
-This repository is being prepared as the reproducible source-code and documentation companion to the dataset. Intended artifacts include:
+This repository is the reproducible source-code and documentation companion to the dataset. It currently includes a cleaned notebook for the v2.0.1 research pipeline.
 
-- Dataset-generation code / notebook
-- Model-evaluation code
-- Quality-audit and experiment outputs
-- Charts and a detailed research report
-- Dataset card and instructions to reproduce the experiments
+- [Reproducible v2.0.1 notebook](./banglanetsim_v2_0_1_reproducible_notebook.ipynb)
+- Quality-audit and experiment outputs, charts, and the detailed research report are the next publication step.
 
-The full generated dataset is distributed separately to avoid bloating this Git repository. A public dataset link will be added here after the Kaggle upload is complete.
+**Dataset:** [BanglaNetSim Research Benchmark on Kaggle](https://www.kaggle.com/datasets/thasan05/banglanetsim-research-benchmark)
+
+The full generated dataset is distributed separately to avoid bloating this Git repository.
 
 ## Reproducibility
 
@@ -98,8 +97,8 @@ Reported metrics were obtained from the generated v2.0.1 dataset and the recorde
 - [x] Audit dataset integrity
 - [x] Run four context-only baseline models
 - [x] Generate research report and result package
-- [ ] Add source-generation and evaluation scripts to this repository
-- [ ] Publish the dataset on Kaggle and link it here
+- [x] Add the reproducible v2.0.1 research notebook
+- [x] Publish the dataset on Kaggle and link it here
 - [ ] Add the final report and visualization assets
 
 ## Citation
