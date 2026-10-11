@@ -73,7 +73,13 @@ This repository is the reproducible source-code and documentation companion to t
 - [Reproducible v2.0.1 notebook](./banglanetsim_v2_0_1_reproducible_notebook.ipynb)
 - [Research report](./reports/RESEARCH_REPORT.md)
 - [Model comparison metrics (CSV)](./reports/model_comparison.csv)
-- Quality-audit JSON, detailed model results, and chart images remain to be published.
+- [Dataset quality audit (JSON)](./reports/data_quality_audit.json)
+- [Class distribution](./reports/distribution_performance_class.csv)
+- [Train/validation/test split distribution](./reports/distribution_split.csv)
+- [Scenario distribution](./reports/distribution_scenario_type.csv)
+- [Congestion distribution](./reports/distribution_congestion_level.csv)
+- [Connection-type distribution](./reports/distribution_connection_type.csv)
+- Chart images and detailed per-class model results remain to be published.
 
 **Dataset:** [BanglaNetSim Research Benchmark on Kaggle](https://www.kaggle.com/datasets/thasan05/banglanetsim-research-benchmark)
 
@@ -102,7 +108,8 @@ Reported metrics were obtained from the generated v2.0.1 dataset and the recorde
 - [x] Add the reproducible v2.0.1 research notebook
 - [x] Publish the dataset on Kaggle and link it here
 - [x] Publish the research report and model comparison metrics
-- [ ] Add the visualization assets and remaining audit artifacts
+- [x] Publish dataset quality audit and distribution summaries
+- [ ] Add the visualization assets and detailed per-class model results
 
 ## Citation
 
