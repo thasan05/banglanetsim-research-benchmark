@@ -1,0 +1,42 @@
+{
+  "dataset": "BanglaNetSim",
+  "version": "2.0.1",
+  "synthetic_only": true,
+  "rows": 1000000,
+  "columns": 19,
+  "missing_cells": 0,
+  "duplicate_session_ids": 0,
+  "numeric_values_all_finite": true,
+  "all_rows_marked_synthetic": true,
+  "valid_performance_classes": true,
+  "valid_split_labels": true,
+  "class_distribution": {
+    "Fair": 473314,
+    "Good": 327271,
+    "Poor": 111391,
+    "Excellent": 88024
+  },
+  "split_distribution": {
+    "train": 571545,
+    "test": 285464,
+    "validation": 142991
+  },
+  "scenario_distribution": {
+    "packet_loss_stress": 143251,
+    "international_route": 142991,
+    "baseline": 142973,
+    "congestion_surge": 142928,
+    "wifi_degradation": 142844,
+    "local_route": 142800,
+    "mixed_stress": 142213
+  },
+  "numeric_ranges": {
+    "plan_speed_mbps": {"min": 5.0, "max": 200.0, "mean": 58.379225},
+    "download_mbps": {"min": 0.749, "max": 200.0, "mean": 34.741697832},
+    "upload_mbps": {"min": 0.221, "max": 200.0, "mean": 26.478574031},
+    "latency_ms": {"min": 4.847, "max": 155.807, "mean": 72.902823579},
+    "jitter_ms": {"min": 1.003, "max": 21.933, "mean": 4.252234703},
+    "packet_loss_pct": {"min": 0.0, "max": 10.0, "mean": 0.5879463811}
+  },
+  "audit_passed": true
+}
