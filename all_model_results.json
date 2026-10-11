@@ -1,0 +1,712 @@
+{
+  "dummy_baseline": {
+    "model": "dummy_baseline",
+    "features_used": [
+      "region",
+      "connection_type",
+      "access_type",
+      "route_type",
+      "congestion_level",
+      "wifi_signal_quality",
+      "plan_speed_mbps"
+    ],
+    "target": "performance_class",
+    "train_rows": 571545,
+    "validation_rows": 142991,
+    "test_rows": 285464,
+    "runtime_seconds": 3.41,
+    "validation": {
+      "accuracy": 0.44667146883370284,
+      "macro_f1": 0.1543790274628857,
+      "weighted_f1": 0.2758268278158628,
+      "classification_report": {
+        "Excellent": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 15758.0
+        },
+        "Fair": {
+          "precision": 0.44667146883370284,
+          "recall": 1.0,
+          "f1-score": 0.6175161098515428,
+          "support": 63870.0
+        },
+        "Good": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 49786.0
+        },
+        "Poor": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 13577.0
+        },
+        "accuracy": 0.44667146883370284,
+        "macro avg": {
+          "precision": 0.11166786720842571,
+          "recall": 0.25,
+          "f1-score": 0.1543790274628857,
+          "support": 142991.0
+        },
+        "weighted avg": {
+          "precision": 0.19951540107005755,
+          "recall": 0.44667146883370284,
+          "f1-score": 0.2758268278158628,
+          "support": 142991.0
+        }
+      },
+      "confusion_matrix": [
+        [
+          0,
+          15758,
+          0,
+          0
+        ],
+        [
+          0,
+          63870,
+          0,
+          0
+        ],
+        [
+          0,
+          49786,
+          0,
+          0
+        ],
+        [
+          0,
+          13577,
+          0,
+          0
+        ]
+      ]
+    },
+    "test": {
+      "accuracy": 0.528318807275173,
+      "macro_f1": 0.17284312826625103,
+      "weighted_f1": 0.36526510148534197,
+      "classification_report": {
+        "Excellent": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 10334.0
+        },
+        "Fair": {
+          "precision": 0.528318807275173,
+          "recall": 1.0,
+          "f1-score": 0.6913725130650041,
+          "support": 150816.0
+        },
+        "Good": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 84878.0
+        },
+        "Poor": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 39436.0
+        },
+        "accuracy": 0.528318807275173,
+        "macro avg": {
+          "precision": 0.13207970181879325,
+          "recall": 0.25,
+          "f1-score": 0.17284312826625103,
+          "support": 285464.0
+        },
+        "weighted avg": {
+          "precision": 0.27912076212066145,
+          "recall": 0.528318807275173,
+          "f1-score": 0.36526510148534197,
+          "support": 285464.0
+        }
+      },
+      "confusion_matrix": [
+        [
+          0,
+          10334,
+          0,
+          0
+        ],
+        [
+          0,
+          150816,
+          0,
+          0
+        ],
+        [
+          0,
+          84878,
+          0,
+          0
+        ],
+        [
+          0,
+          39436,
+          0,
+          0
+        ]
+      ]
+    }
+  },
+  "decision_tree": {
+    "model": "decision_tree",
+    "features_used": [
+      "region",
+      "connection_type",
+      "access_type",
+      "route_type",
+      "congestion_level",
+      "wifi_signal_quality",
+      "plan_speed_mbps"
+    ],
+    "target": "performance_class",
+    "train_rows": 571545,
+    "validation_rows": 142991,
+    "test_rows": 285464,
+    "runtime_seconds": 10.64,
+    "validation": {
+      "accuracy": 0.9192676462154961,
+      "macro_f1": 0.9050607140735,
+      "weighted_f1": 0.920796811000564,
+      "classification_report": {
+        "Excellent": {
+          "precision": 0.8682721926631196,
+          "recall": 0.9838177433684477,
+          "f1-score": 0.922440722339571,
+          "support": 15758.0
+        },
+        "Fair": {
+          "precision": 0.9751414188593077,
+          "recall": 0.8825739783936121,
+          "f1-score": 0.926551443576025,
+          "support": 63870.0
+        },
+        "Good": {
+          "precision": 0.9424513135670824,
+          "recall": 0.9302414333346724,
+          "f1-score": 0.9363065694906345,
+          "support": 49786.0
+        },
+        "Poor": {
+          "precision": 0.7291071035847811,
+          "recall": 0.9767253443323267,
+          "f1-score": 0.8349441208877696,
+          "support": 13577.0
+        },
+        "accuracy": 0.9192676462154961,
+        "macro avg": {
+          "precision": 0.8787430071685728,
+          "recall": 0.9433396248572647,
+          "f1-score": 0.9050607140735,
+          "support": 142991.0
+        },
+        "weighted avg": {
+          "precision": 0.928621269010992,
+          "recall": 0.9192676462154961,
+          "f1-score": 0.920796811000564,
+          "support": 142991.0
+        }
+      },
+      "confusion_matrix": [
+        [
+          15503,
+          0,
+          255,
+          0
+        ],
+        [
+          0,
+          56370,
+          2573,
+          4927
+        ],
+        [
+          2352,
+          1121,
+          46313,
+          0
+        ],
+        [
+          0,
+          316,
+          0,
+          13261
+        ]
+      ]
+    },
+    "test": {
+      "accuracy": 0.8414406019673234,
+      "macro_f1": 0.7757774513865161,
+      "weighted_f1": 0.8534099683070175,
+      "classification_report": {
+        "Excellent": {
+          "precision": 0.3514755257112564,
+          "recall": 0.9623572672730791,
+          "f1-score": 0.5148981335266251,
+          "support": 10334.0
+        },
+        "Fair": {
+          "precision": 0.9770544416213708,
+          "recall": 0.8235863568852111,
+          "f1-score": 0.8937803794303149,
+          "support": 150816.0
+        },
+        "Good": {
+          "precision": 0.8076773348747773,
+          "recall": 0.8066401187586889,
+          "f1-score": 0.8071583936055456,
+          "support": 84878.0
+        },
+        "Poor": {
+          "precision": 0.8300753208314006,
+          "recall": 0.9529364032863373,
+          "f1-score": 0.8872728989835791,
+          "support": 39436.0
+        },
+        "accuracy": 0.8414406019673234,
+        "macro avg": {
+          "precision": 0.7415706557597013,
+          "recall": 0.8863800365508291,
+          "f1-score": 0.7757774513865161,
+          "support": 285464.0
+        },
+        "weighted avg": {
+          "precision": 0.8837418306058811,
+          "recall": 0.8414406019673234,
+          "f1-score": 0.8534099683070175,
+          "support": 285464.0
+        }
+      },
+      "confusion_matrix": [
+        [
+          9945,
+          0,
+          389,
+          0
+        ],
+        [
+          2999,
+          124210,
+          15914,
+          7693
+        ],
+        [
+          15351,
+          1061,
+          68466,
+          0
+        ],
+        [
+          0,
+          1856,
+          0,
+          37580
+        ]
+      ]
+    }
+  },
+  "logistic_regression": {
+    "model": "logistic_regression",
+    "features_used": [
+      "region",
+      "connection_type",
+      "access_type",
+      "route_type",
+      "congestion_level",
+      "wifi_signal_quality",
+      "plan_speed_mbps"
+    ],
+    "target": "performance_class",
+    "train_rows": 571545,
+    "validation_rows": 142991,
+    "test_rows": 285464,
+    "runtime_seconds": 19.53,
+    "validation": {
+      "accuracy": 0.847207166884629,
+      "macro_f1": 0.8607224976830281,
+      "weighted_f1": 0.8466165351705294,
+      "classification_report": {
+        "Excellent": {
+          "precision": 0.8693879861858121,
+          "recall": 0.9744891483690824,
+          "f1-score": 0.9189431794380779,
+          "support": 15758.0
+        },
+        "Fair": {
+          "precision": 0.8816703356712572,
+          "recall": 0.8089087208392046,
+          "f1-score": 0.8437237178388001,
+          "support": 63870.0
+        },
+        "Good": {
+          "precision": 0.8216455217192137,
+          "recall": 0.8286265215120716,
+          "f1-score": 0.8251212560628032,
+          "support": 49786.0
+        },
+        "Poor": {
+          "precision": 0.7789346246973365,
+          "recall": 0.9477793326949989,
+          "f1-score": 0.8551018373924312,
+          "support": 13577.0
+        },
+        "accuracy": 0.847207166884629,
+        "macro avg": {
+          "precision": 0.8379096170684049,
+          "recall": 0.8899509308538394,
+          "f1-score": 0.8607224976830281,
+          "support": 142991.0
+        },
+        "weighted avg": {
+          "precision": 0.8496628429024744,
+          "recall": 0.847207166884629,
+          "f1-score": 0.8466165351705294,
+          "support": 142991.0
+        }
+      },
+      "confusion_matrix": [
+        [
+          15356,
+          0,
+          402,
+          0
+        ],
+        [
+          0,
+          51665,
+          8553,
+          3652
+        ],
+        [
+          2307,
+          6225,
+          41254,
+          0
+        ],
+        [
+          0,
+          709,
+          0,
+          12868
+        ]
+      ]
+    },
+    "test": {
+      "accuracy": 0.7648319928257153,
+      "macro_f1": 0.7177575276507902,
+      "weighted_f1": 0.7756951145516648,
+      "classification_report": {
+        "Excellent": {
+          "precision": 0.32740447957839264,
+          "recall": 0.9618734275208051,
+          "f1-score": 0.4885241067479235,
+          "support": 10334.0
+        },
+        "Fair": {
+          "precision": 0.8952178384442783,
+          "recall": 0.7618753978357734,
+          "f1-score": 0.8231817400275103,
+          "support": 150816.0
+        },
+        "Good": {
+          "precision": 0.6835016835016835,
+          "recall": 0.6696670515327883,
+          "f1-score": 0.6765136457229912,
+          "support": 84878.0
+        },
+        "Poor": {
+          "precision": 0.8407276564507249,
+          "recall": 0.9293285323055076,
+          "f1-score": 0.8828106181047357,
+          "support": 39436.0
+        },
+        "accuracy": 0.7648319928257153,
+        "macro avg": {
+          "precision": 0.6867129144937698,
+          "recall": 0.8306861022987185,
+          "f1-score": 0.7177575276507902,
+          "support": 285464.0
+        },
+        "weighted avg": {
+          "precision": 0.8041846368257366,
+          "recall": 0.7648319928257153,
+          "f1-score": 0.7756951145516648,
+          "support": 285464.0
+        }
+      },
+      "confusion_matrix": [
+        [
+          9940,
+          0,
+          394,
+          0
+        ],
+        [
+          3055,
+          114903,
+          25915,
+          6943
+        ],
+        [
+          17365,
+          10673,
+          56840,
+          0
+        ],
+        [
+          0,
+          2776,
+          11,
+          36649
+        ]
+      ]
+    }
+  },
+  "random_forest": {
+    "model": "random_forest",
+    "features_used": [
+      "region",
+      "connection_type",
+      "access_type",
+      "route_type",
+      "congestion_level",
+      "wifi_signal_quality",
+      "plan_speed_mbps"
+    ],
+    "target": "performance_class",
+    "train_rows": 571545,
+    "validation_rows": 142991,
+    "test_rows": 285464,
+    "runtime_seconds": 275.5,
+    "validation": {
+      "accuracy": 0.9206173815135218,
+      "macro_f1": 0.9066724791971232,
+      "weighted_f1": 0.9220147686118539,
+      "classification_report": {
+        "Excellent": {
+          "precision": 0.8687100750868542,
+          "recall": 0.9838177433684477,
+          "f1-score": 0.9226877752648495,
+          "support": 15758.0
+        },
+        "Fair": {
+          "precision": 0.9744348993750753,
+          "recall": 0.8862063566619697,
+          "f1-score": 0.9282288019547873,
+          "support": 63870.0
+        },
+        "Good": {
+          "precision": 0.9422388545395379,
+          "recall": 0.9305427228538143,
+          "f1-score": 0.9363542656183681,
+          "support": 49786.0
+        },
+        "Poor": {
+          "precision": 0.7382336500838457,
+          "recall": 0.9727480297562053,
+          "f1-score": 0.8394190739504878,
+          "support": 13577.0
+        },
+        "accuracy": 0.9206173815135218,
+        "macro avg": {
+          "precision": 0.8809043697713282,
+          "recall": 0.9433287131601092,
+          "f1-score": 0.9066724791971232,
+          "support": 142991.0
+        },
+        "weighted avg": {
+          "precision": 0.9291465355553742,
+          "recall": 0.9206173815135218,
+          "f1-score": 0.9220147686118539,
+          "support": 142991.0
+        }
+      },
+      "confusion_matrix": [
+        [
+          15503,
+          0,
+          255,
+          0
+        ],
+        [
+          0,
+          56602,
+          2585,
+          4683
+        ],
+        [
+          2343,
+          1115,
+          46328,
+          0
+        ],
+        [
+          0,
+          370,
+          0,
+          13207
+        ]
+      ]
+    },
+    "test": {
+      "accuracy": 0.8415491970966567,
+      "macro_f1": 0.7757742672879986,
+      "weighted_f1": 0.8535355122130194,
+      "classification_report": {
+        "Excellent": {
+          "precision": 0.35137617920361797,
+          "recall": 0.9623572672730791,
+          "f1-score": 0.5147915210808293,
+          "support": 10334.0
+        },
+        "Fair": {
+          "precision": 0.9753786839898756,
+          "recall": 0.8253169424994695,
+          "f1-score": 0.8940950834862748,
+          "support": 150816.0
+        },
+        "Good": {
+          "precision": 0.8076564619831298,
+          "recall": 0.8065812106788567,
+          "f1-score": 0.8071184782160183,
+          "support": 84878.0
+        },
+        "Poor": {
+          "precision": 0.834133488153987,
+          "recall": 0.947230956486459,
+          "f1-score": 0.8870919863688717,
+          "support": 39436.0
+        },
+        "accuracy": 0.8415491970966567,
+        "macro avg": {
+          "precision": 0.7421362033326526,
+          "recall": 0.8853715942344661,
+          "f1-score": 0.7757742672879986,
+          "support": 285464.0
+        },
+        "weighted avg": {
+          "precision": 0.8834073174184904,
+          "recall": 0.8415491970966567,
+          "f1-score": 0.8535355122130194,
+          "support": 285464.0
+        }
+      },
+      "confusion_matrix": [
+        [
+          9945,
+          0,
+          389,
+          0
+        ],
+        [
+          3002,
+          124471,
+          15915,
+          7428
+        ],
+        [
+          15356,
+          1061,
+          68461,
+          0
+        ],
+        [
+          0,
+          2081,
+          0,
+          37355
+        ]
+      ]
+    },
+    "top_features": [
+      {
+        "encoded_feature": "numeric__plan_speed_mbps",
+        "importance": 0.43600418305133354
+      },
+      {
+        "encoded_feature": "categorical__congestion_level_High",
+        "importance": 0.09145778863056694
+      },
+      {
+        "encoded_feature": "categorical__connection_type_Fiber",
+        "importance": 0.08087498914960756
+      },
+      {
+        "encoded_feature": "categorical__route_type_International",
+        "importance": 0.07305276734157648
+      },
+      {
+        "encoded_feature": "categorical__route_type_Local",
+        "importance": 0.0722310532695557
+      },
+      {
+        "encoded_feature": "categorical__congestion_level_Low",
+        "importance": 0.04487833605101624
+      },
+      {
+        "encoded_feature": "categorical__access_type_Mobile Data",
+        "importance": 0.0435025897710826
+      },
+      {
+        "encoded_feature": "categorical__connection_type_Mobile",
+        "importance": 0.04283008353393419
+      },
+      {
+        "encoded_feature": "categorical__wifi_signal_quality_Poor",
+        "importance": 0.03239207769008241
+      },
+      {
+        "encoded_feature": "categorical__congestion_level_Medium",
+        "importance": 0.018553901480926976
+      },
+      {
+        "encoded_feature": "categorical__connection_type_Cable",
+        "importance": 0.015319204840404846
+      },
+      {
+        "encoded_feature": "categorical__access_type_Ethernet",
+        "importance": 0.013517266667926351
+      },
+      {
+        "encoded_feature": "categorical__wifi_signal_quality_Excellent",
+        "importance": 0.01096270759251981
+      },
+      {
+        "encoded_feature": "categorical__wifi_signal_quality_Fair",
+        "importance": 0.006647527579695097
+      },
+      {
+        "encoded_feature": "categorical__wifi_signal_quality_Not Applicable",
+        "importance": 0.005965386318319037
+      },
+      {
+        "encoded_feature": "categorical__wifi_signal_quality_Good",
+        "importance": 0.005858310899535203
+      },
+      {
+        "encoded_feature": "categorical__access_type_Wi-Fi",
+        "importance": 0.004635544759582296
+      },
+      {
+        "encoded_feature": "categorical__region_Barishal",
+        "importance": 0.0001808321803887322
+      },
+      {
+        "encoded_feature": "categorical__region_Rajshahi",
+        "importance": 0.0001701604895070034
+      },
+      {
+        "encoded_feature": "categorical__region_Rangpur",
+        "importance": 0.0001665296219347165
+      }
+    ]
+  }
+}
